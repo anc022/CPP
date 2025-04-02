@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 void reverse(const string& str) {
-    for (int i = str.length() - 1; i >= 0; --i) {
+    for (int i = str.length()-1; i >= 0; --i) {
         cout << str[i];
     }
     cout << endl;
@@ -12,5 +11,5 @@ void reverse(const string& str) {
 
 int main() {
     reverse("Testing");
-return 0;
+    return 0;
 }

@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-
 using namespace std;
 
 class CreditCard {
@@ -28,7 +27,7 @@ public:
             throw invalid_argument("Сумма должна быть положительной");
         }
         if (amount > Balance) {
-            throw runtime_error("Недостаточно средств на карте");
+            throw invalid_argument("Недостаточно средств на карте");
         }
         Balance -= amount;
         cout << "С карты " << Number << " снято: " << amount << " руб.\n";

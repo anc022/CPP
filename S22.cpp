@@ -1,15 +1,13 @@
 #include <iostream>
 #include <fstream>
-
 using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian_Russia.1251");
-
     int i = 1;
     int n;
 
-    ifstream inputFile("output.txt");
+    ifstream inputFile("input.txt");
 
     if (!inputFile.is_open()) {
         cerr << "Ошибка: не удалось открыть файл 'output.txt'" << endl;
@@ -21,5 +19,5 @@ int main() {
         i++;
     }
     inputFile.close();
-return 0;
+    return 0;
 }

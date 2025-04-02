@@ -23,5 +23,5 @@ int main() {
     cout << "5. Сложение с char (используется ASCII код): cNum + iNum = '" << static_cast<char>(cNum + iNum) << "' (ASCII: " << cNum + iNum << ")" << endl;
 
 
-return 0;
+    return 0;
 }

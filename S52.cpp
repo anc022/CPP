@@ -23,5 +23,5 @@ int main() {
     print(3.14f);
     print('A');
     print(10, 20);
-return 0;
+    return 0;
 }

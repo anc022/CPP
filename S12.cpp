@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "Russian_Russia.1251");
     int i = 1;
     int s = 0;
 
@@ -12,5 +13,5 @@ int main() {
         i+=4;
     }
     cout << "Ñóììà = " << s;
-return 0;
+    return 0;
 }

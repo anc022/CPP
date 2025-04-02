@@ -25,5 +25,5 @@ int main() {
     }
 
     outputFile.close();
-return 0;
+    return 0;
 }

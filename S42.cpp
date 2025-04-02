@@ -1,6 +1,5 @@
 #include <iostream>
 #include <algorithm>
-
 using namespace std;
 
 void sort(int a[10]) {
@@ -32,5 +31,5 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
-return 0;
+    return 0;
 }
